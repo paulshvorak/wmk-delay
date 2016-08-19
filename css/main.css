@@ -155,6 +155,10 @@ a {
 	        align-items: center;
 }
 
+.arrow-down:hover {
+	background-color: #5ac898;
+}
+
 .header-icon-arrow {
 	color: #fff;
 }   
