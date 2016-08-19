@@ -104,6 +104,7 @@ a {
 }
 
 .discount--timer--count:before {
+	content: attr(data-word);
 	font-size: 14px;
 	color: #5f48b9;
 	position: absolute;
