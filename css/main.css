@@ -111,7 +111,9 @@ a {
 	right: 10px;
 	font-family: 'Ubuntu', sans-serif;
 	text-transform: uppercase;
-	transform: translateY(10px);
+	-webkit-transform: translateY(10px);
+	    -ms-transform: translateY(10px);
+	        transform: translateY(10px);
 }
 
 .header-title {
