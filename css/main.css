@@ -279,7 +279,7 @@ a {
 
 .offer-img {
 	display: block;
-	width: 100%;
+	max-width: 100%;
 }
 
 .main__block-3-title {
