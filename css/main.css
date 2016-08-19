@@ -79,6 +79,18 @@ a {
 	font-weight: 700;
 	font-size: 68px;
 	padding: 0 10px;
+	position: relative;
+}
+
+.discount--timer--count:before {
+	font-size: 14px;
+	color: #5f48b9;
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	transform: translateY(10px);
 }
 
 .header-title {
