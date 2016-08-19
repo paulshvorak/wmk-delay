@@ -16,6 +16,3 @@ $('a[href^="#"]').bind('click.smoothscroll',function (e) {
 
 
 
-$(function(){
-	$('.footer__img-block').css('min-height', $('.footer__block').height());
-});

@@ -321,12 +321,20 @@ a {
 .footer__img-block {
 	width: 35%;
 	float: left;
+	padding: 10px;
+	position: relative;
+	overflow: hidden;
+	height: 253px;
 }
 
 .footer-img {
-	width: 100%;
+	min-width: 100%;
 	height: auto;
 	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .footer__block {
